@@ -1,0 +1,19 @@
+{
+  "name": "kino-monster",
+  "version": "1.0.0",
+  "description": "project for learning css & html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatianaSuz/kino-monster.git"
+  },
+  "author": "TatianaSus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatianaSuz/kino-monster/issues"
+  },
+  "homepage": "https://github.com/TatianaSuz/kino-monster#readme"
+}
