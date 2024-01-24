@@ -19,10 +19,10 @@
         </div>
         <div class="menubar">
             <ul class="menu">
-                <li><a href="index.html">Главная</a></li>
-                <li class="selected"><a href="films.html">Фильмы</a></li>
+                <li><a href="#">Главная</a></li>
+                <li><a href="films.html">Фильмы</a></li>
                 <li><a href="#">Сериалы</a></li>
-                <li><a href="rating.html">Рейтинг фильмов</a></li>
+                <li class="selected"><a href="rating.html">Рейтинг фильмов</a></li>
                 <li><a href="contact.html">Контакты</a></li>
             </ul>
         </div>
@@ -78,48 +78,38 @@
         </div>
 
         <div class="content">
-               <h1>Оппенгеймер</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/uYPbbksJxIg?si=PNpuVrbiEh6vffYi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <div class="info_film_page">
-                    <span class="label">Рейтинг: </span>
-                    <span class="value">8.3/10</span>
-                    <span class="label">год: </span>
-                    <span class="value">2023</span>
-                    <span class="label">режиссер: </span>
-                    <span class="value">Кристофер Нолан</span>
-                </div>
-
-            <h2>Описание фильма</h2>
-            <div class="description_film">
-                <img src="/assets/img/oppenhamer.jpg" alt="постер Оппенгеймер">
-                История жизни американского физика-теоретика Роберта Оппенгеймера,
-                который во времена Второй мировой войны руководил Манхэттенским
-                проектом — секретными разработками ядерного оружия.
-            </div>
-
-            <hr>
-            <h2>Отзывы</h2>
-            <div class="reviews">
-                <div class="review_name">Буба</div>
-                <div class="review_text">
-                    Прометей украл огонь у богов и подарил его человечеству.
-                    За это он был прикован цепью к скале и подвергался вечным пыткам.
-                </div>
-                <div class="review_name">Боба</div>
-                <div class="review_text">
-                    Кристофер Нолан подарил отличный байопик, смонтированный в
-                    трёх временных линиях, чтобы рассказать о гениальном уме в
-                    лапах правительства.
-                </div>
-            </div>
-
-            <div class="send">
-                <form method="post" action="#" id="review">
-                    <input type="text" name="review_name" placeholder="Ваше имя">
-                    <textarea name="review_text"></textarea>
-                    <input type="submit" value="отправить">
-                </form>
-            </div>
+            <table >
+                <tr>
+                    <th></th>
+                    <th>Фильм</th>
+                    <th class="center">Год</th>
+                    <th class="center">Рейтинг</th>
+                </tr>
+                <tr>
+                    <td class="center"><img src="/assets/img/oppenhamer.jpg" alt="постер Оппенгеймер"></td>
+                    <td>1. <a href="show.html">Оппенгеймер</a></td>
+                    <td class="center">2023</td>
+                    <td class="center rating">8.3</td>
+                </tr>
+                <tr>
+                    <td class="center"><img src="/assets/img/guard.jpg" alt="постер Стражи Галактики"></td>
+                    <td>2. <a href="#">Стражи Галактики 3</a></td>
+                    <td class="center">2023</td>
+                    <td class="center rating">8.1</td>
+                </tr>
+                <tr>
+                    <td class="center"><img src="/assets/img/jw.jpeg" alt="постер Джон Уик 4"></td>
+                    <td>3. <a href="#">Джон Уик 4</a></td>
+                    <td class="center">2023</td>
+                    <td class="center rating">7.6</td>
+                </tr>
+                <tr>
+                    <td class="center"><img src="/assets/img/grom.jpg" alt="постер Гром: Трудное детство"></td>
+                    <td>4. <a href="#">Гром: Трудное детство</a></td>
+                    <td class="center">2023</td>
+                    <td class="center rating">7.1</td>
+                </tr>
+            </table>
         </div>
     </div>
 
